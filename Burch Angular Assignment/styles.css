@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@200;500&family=Open+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(82,6,71);
+    background: linear-gradient(0deg, rgba(82,6,71,0.5396533613445378) 0%, rgba(29,95,157,0.5508578431372548) 66%);
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    height: 100vh;
+    margin:10%;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    filter: drop-shadow(5px 5px 10px #000000 50%);
+}
+.card{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: #221a69;
+    color:#fff;
+    padding:2rem;
+    border-radius: .2rem 0 0 .2rem;
+
+}
+input[type=text] {
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+    background-color: #94a2ee;
+    color: #000;
+    border: none;
+    padding:.5rem;
+    margin:.5rem;
+  }
+  .btn-primary{
+    background-color: #1d5f9d ;
+    padding:8px;
+    color:#fff;
+    border: none;
+    border-radius: .2rem;
+    margin-left: .5rem;
+  }
+  .btn-delete{
+    background-color: #9d1d1d ;
+    padding:8px;
+    color:#fff;
+    border: none;
+    border-radius: .2rem;
+    margin-left: .5rem;
+  }
+
+  .list{
+    padding: 1rem;
+    background-color: #1d5f9d;
+    color:#fff;
+    border-radius: 0 .2rem .2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: flex-start;
+  }
